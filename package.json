@@ -1,0 +1,29 @@
+{
+  "name": "vanillajswebpackandbabelsetupwithserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start":"webpack-dev-server --output-public-path=/build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kedarprabhu46/VanillaJSWebpackAndBabelSetupWithServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kedarprabhu46/VanillaJSWebpackAndBabelSetupWithServer/issues"
+  },
+  "homepage": "https://github.com/kedarprabhu46/VanillaJSWebpackAndBabelSetupWithServer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
